@@ -1,0 +1,178 @@
+/* global */
+
+.section-title {
+    margin-bottom: 26px;
+}
+
+.section-title-date {
+    color: #EFB126;
+}
+
+/* hello */
+
+.hello {
+    background: url('http://shirleyparsons.com/uk/wp-content/uploads/sites/2/2016/06/1839_skyscraper.jpg') center center no-repeat;
+    height: 75vh;
+    margin-top: -150px;
+    color: #fff;
+}
+
+.hello > .full-height {
+    padding: 100px 0;
+    background-color: rgba(0,0,0,.7);
+}
+
+.hello-title {
+    text-transform: uppercase;
+    margin-bottom: 78px;
+    font-family: "rubik-light";
+}
+
+.hello-title h1 {
+    font-size: 46px;
+}
+
+.hello-title h1 > div {
+    font-size: 23px;
+}
+
+.hello-title h1 span {
+    color: #EFB126;
+}
+
+.hello-cat-slider-detail {
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(255,255,255,.4);
+}
+
+.hello-cat-slider-detail h3 {
+    margin-bottom: 13px;
+}
+
+.hello-cat-slider-detail p {
+    color: #b4b4b4;
+}
+
+/* about */
+
+.about {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+/* clients */
+
+.clients-image {
+    background: url(http://shirleyparsons.com/uk/wp-content/uploads/sites/2/2016/06/1839_skyscraper.jpg) center center no-repeat;
+}
+
+.clients-info {
+    padding: 50px;
+    background-color: #EFB126;
+}
+
+.clients-info h3 {
+    color: #fff;
+}
+
+.clients-info p {
+    color: #000;
+}
+
+.clients-info li:before {
+    content: none;
+}
+
+/* preoritets */
+
+.preoritets {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.preoritets-block-title h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* detail-pres */
+
+.detail-pres {
+    background: url(http://shirleyparsons.com/uk/wp-content/uploads/sites/2/2016/06/1839_skyscraper.jpg) center center no-repeat;
+    color: #fff;
+}
+
+.detail-pres .text-block p {
+    color: #fafafa;
+}
+
+/* production */
+
+.production {
+    background-color: #f1f1f1;
+    padding: 100px 0;
+}
+
+.detail-pres .full-height {
+    background-color: rgba(0,0,0,.5);
+}
+
+.production-cycle {
+    padding: 26px;
+    background-color: #fff;
+    margin-bottom: 26px;
+}
+
+.production-cycle li {
+    position: relative;
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.production-cycle li:after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 1px;
+    width: 16px;
+    height: 15px;
+    background: url(../images/next.svg) center center no-repeat;
+    background-size: cover;
+}
+
+.production-cycle li:last-child,
+.production-cycle li:last-child:after{
+    margin-right: 0;
+    content: none;
+}
+
+.production-desc-1,
+.production-desc-2,
+.production-desc-3{
+    padding: 26px;
+}
+
+.production-desc-1 {
+    position: relative;
+    background-color: #EFB126;
+}
+
+.production-desc-1:after {
+    content: '';
+    border: 20px solid transparent;	border-left: 20px solid #EFB126;
+    position: absolute;
+    top: 20px;
+    right: -40px;
+}
+
+.production-desc-2 {
+    background-color: #2A2F35;
+    color: #fff;
+    padding: 26px 26px 26px 52px;
+}
+
+.production-desc-3 {
+    background: url(http://shirleyparsons.com/uk/wp-content/uploads/sites/2/2016/06/1839_skyscraper.jpg) center center no-repeat;
+    background-size: cover;
+}
